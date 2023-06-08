@@ -1,0 +1,14 @@
+{
+  "build": {
+    "packs": [
+      {
+        "name": "php",
+        "version": "8.1"
+      },
+      {
+        "name": "composer",
+        "version": "2"
+      }
+    ]
+  }
+}

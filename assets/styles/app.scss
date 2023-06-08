@@ -1,0 +1,49 @@
+
+.logo{
+  font-weight: 900;
+  font-size: 1.5rem;
+
+  span{
+    border-bottom: solid 3px white;
+  }
+}
+ul{
+  &.menu{
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+}
+.btn-list{
+  background: #317f05;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px #000;
+  margin-bottom: 15px;
+
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+h2{
+  &.titre-page{
+    color: #0a53be;
+    margin-top: 15px;
+  }
+}
+.corbeille{
+  color: #b30303;
+}
+
+.btn-final{
+  position: fixed;
+  bottom: 70px;
+  width: 90vw;
+  z-index: 1;
+}
+.montant-total{
+  font-weight: bold;
+  color: darkred;
+}
