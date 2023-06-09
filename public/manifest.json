@@ -1,13 +1,13 @@
 {
   "name": "Happy House",
   "short_name": "HappyHouse",
-  "start_url": "../index.php",
+  "start_url": "index.php",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
