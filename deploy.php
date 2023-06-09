@@ -4,7 +4,7 @@ namespace Deployer;
 require 'recipe/symfony.php';
 
 // Configuration générale
-set('application', 'Happy HOuse');
+set('application', 'Happy House');
 set('repository', 'git@github.com:delrodie/happyhouse.git');
 set('allow_anonymous_stats', false);
 
