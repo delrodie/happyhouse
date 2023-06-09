@@ -1,7 +1,7 @@
 const CACHE_NAME = 'Happy House';
 const urlsToCahe = [
     '/',
-    'index.html',
+    'index.php',
 ];
 
 self.addEventListener('install', event => {
