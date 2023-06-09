@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta name="theme-color" content="#000000">
         <title>{% block title %}Akwaba{% endblock %}</title>
-        <link rel="icon" href="">
+        <link rel="icon" href="{{ absolute_url(asset('icon.png')) }}">
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}

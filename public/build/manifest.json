@@ -3,5 +3,19 @@
   "build/app.js": "/build/app.cb5bbf27.js",
   "build/runtime.js": "/build/runtime.442270fd.js",
   "build/91.e559bb8a.css": "/build/91.e559bb8a.css",
-  "build/91.29c81307.js": "/build/91.29c81307.js"
+  "build/91.29c81307.js": "/build/91.29c81307.js",
+
+  "name": "Happy House",
+  "short_name": "HappyHouse",
+  "start_url": "../index.php",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
 }
