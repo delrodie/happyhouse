@@ -29,5 +29,11 @@ task('database:migrate', function () {
     run('{{/usr/bin/php8.1-cli}} {{release_path}}/bin/console doctrine:schema:update --force');
 })->desc('Execute database migrations');
 
+// Exécution de la tâche deploy:lock
+task('deploy:lock', function () {
+    // Cette tâche est vide pour éviter la création du fichier deploy.lock
+})->desc('Lock deployment');
+
+
 // Exécution des tâches Symfony lors du déploiement
 after('deploy:symlink', 'database:migrate');
